@@ -31,6 +31,13 @@ Next, I applied quartile-based scoring: using SQL window functions, I ranked all
   <br>
   <em>Figure: IQR Method</em>
 </p>
+
+<p align="center">
+  <img src="images/IQR_chart.png" alt="IQR Chart" width="600"/>
+  <br>
+  <em>Figure: IQR Chart</em>
+</p>
+
 Using the combination of these three scores, I then classified each customer into a BCG-inspired segment. For example, a customer with high scores in all three metrics is labeled a “Star”, while one with low scores across the board is a “Dog.” A customer with high spend/frequency but low recency is tagged as a “Cash Cow” (historically valuable, but less active lately), and one with high recency but low spend/frequency is a “Question Mark” (new or re-emerging customer with potential). Any customer who did not fit exactly into one of those four profiles was categorized as “Other.” This final segmentation dataset (each customer’s RFM metrics, scores, and assigned segment) formed the foundation for the deep-dive analysis and insights that follow.
 <p align="center">
   <img src="images/BCG_category.png" alt="BCG Category" width="600"/>
