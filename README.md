@@ -5,7 +5,18 @@ In today's data-driven business environment, effective customer segmentation is 
 To achieve this, I implemented a Recency-Frequency-Monetary (RFM) analysis combined with business-context adjustments. Each customer's purchasing behavior was quantified (how recently, how often, and how much they buy) and normalized by their time as a customer (tenure) to ensure fair comparisons between new and long-term clients. I then applied quartile-based scoring to rank customers on each metric and mapped these scores to the classic Boston Consulting Group (BCG) matrix categories. This RFM+BCG approach yielded five distinct customer segments – Stars, Cash Cows, Question Marks, Dogs, and Others – providing a multi-dimensional view of customer value and engagement. Ultimately, the segmentation delivers insights to inform data-backed strategies for retention, upselling, reactivation, and efficient resource allocation across the customer base.
 
 ## 2. Data Structure Overview
-The analysis is based on two primary tables from the customer database: customer_registered and customer_transaction. The customer_registered table provides each customer's sign-up date (contract start date), while customer_transaction logs all purchase transactions (with purchase dates and amounts). The dataset covers all transactions up to September 1, 2022, encompassing 114,090 customers and their purchase history. I cleaned and standardized the data using Python (pandas) to ensure consistency (e.g. uniform date formats, removal of duplicates) before analysis. 
+The analysis is based on two primary tables from the customer database: customer_registered and customer_transaction. The customer_registered table provides each customer's sign-up date (contract start date), while customer_transaction logs all purchase transactions (with purchase dates and amounts). The dataset covers all transactions up to **September 1, 2022**, encompassing **114,090** customers and their purchase history. I cleaned and standardized the data using Python (pandas) to ensure consistency (e.g. uniform date formats, removal of duplicates) before analysis. 
+<p align="center">
+  <img src="images/customer_registered.png" alt="Customer Registered" width="600"/>
+  <br>
+  <em>Figure: customer_registered tables</em>
+</p>
+
+<p align="center">
+  <img src="images/customer_transaction.png" alt="Customer Transaction" width="600"/>
+  <br>
+  <em>Figure: customer_transaction tables</em>
+</p>
 
 From these tables, I derived the key RFM metrics for each customer:
 - **Recency** – the number of days since the customer's last purchase (as of the analysis date).
