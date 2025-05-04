@@ -37,6 +37,7 @@ Using the combination of these three scores, I then classified each customer int
   <br>
   <em>Figure: BCG Category</em>
 </p>
+
 ## 3. Executive Summary
 I identified five distinct customer segments through this RFM-BCG analysis: Stars, Cash Cows, Question Marks, Dogs, and Others. The two highest-value segments – Stars and Cash Cows, together about **35%** of the customer base – contribute nearly half of the total revenue, indicating a highly concentrated value pool. In contrast, the two lowest-performing segments (Dogs and Question Marks), which also make up ~**35%** of customers, generate only **~24%** of revenue, highlighting an efficiency gap in a large portion of the customer base. The remaining ~**30%** of customers fall into the intermediate Others category, contributing roughly proportional revenue (~**28%**) to their size. These findings underscore the need to focus retention and loyalty efforts on the high-value groups, while devising targeted tactics to improve or cost-manage the lower-value segments.
 
