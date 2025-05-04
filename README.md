@@ -39,14 +39,72 @@ Using the combination of these three scores, I then classified each customer int
 </p>
 
 ## 3. Executive Summary
-I identified five distinct customer segments through this RFM-BCG analysis: Stars, Cash Cows, Question Marks, Dogs, and Others. The two highest-value segments – Stars and Cash Cows, together about **35%** of the customer base – contribute nearly half of the total revenue, indicating a highly concentrated value pool. In contrast, the two lowest-performing segments (Dogs and Question Marks), which also make up ~**35%** of customers, generate only **~24%** of revenue, highlighting an efficiency gap in a large portion of the customer base. The remaining ~**30%** of customers fall into the intermediate Others category, contributing roughly proportional revenue (~**28%**) to their size. These findings underscore the need to focus retention and loyalty efforts on the high-value groups, while devising targeted tactics to improve or cost-manage the lower-value segments.
+I identified five distinct customer segments through this RFM-BCG analysis: Stars, Cash Cows, Question Marks, Dogs, and Others. The two highest-value segments – Stars and Cash Cows, together about 35% of the customer base – contribute nearly half of the total revenue, indicating a highly concentrated value pool. In contrast, the two lowest-performing segments (Dogs and Question Marks), which also make up ~35% of customers, generate only ~24% of revenue, highlighting an efficiency gap in a large portion of the customer base. The remaining 30% of customers fall into the intermediate Others category, contributing roughly proportional revenue (28%) to their size. These findings underscore the need to focus retention and loyalty efforts on the high-value groups, while devising targeted tactics to improve or cost-manage the lower-value segments.
+
+This section summarizes the key findings from the RFM-based customer segmentation. By examining customer distribution, revenue contribution, and average monetary value across segments, we can prioritize where to focus marketing, retention, and reactivation efforts.
+
+### 3.1. Segment Distribution
+- **Stars**: 23,490 customers (**20.6%** of the customer base)
+- **Cash Cows**: 16,410 customers (**14.4%**)
+- **Question Marks**: 18,250 customers (**16.0%**)
+- **Dogs**: 21,660 customers (**19.0%**)
+- **Others**: 34,280 customers (**30.0%**)
+
+The customer base is spread fairly evenly across segments, with no single group dominating in size. The largest is the **Others** segment (**34.28K**), which contains customers with moderate RFM behavior who didn’t fit cleanly into the BCG quadrants. This group presents an opportunity: with deeper segmentation (e.g., by product, region, or channel), we may uncover hidden high-value subgroups.
+Meanwhile, **Stars** and **Cash Cows** together account for **35%** customer base. Although they are smaller in number, they are expected to have outsized business impact — a hypothesis that is confirmed in the revenue analysis.
+<p align="center">
+  <img src="images/total_customers_chart.png" alt="Total Customers Chart" width="600"/>
+  <br>
+  <em>Figure: Total Customers Chart</em>
+</p>
+
+### 3.2. Segment Contribution   
+Next, I looked at how much revenue each segment contributes, to gauge their importance in monetary terms. The total revenue (~2,000 million VND) was broken down by segment:
+
+- **Stars**: 760 million VND (**30.87%** of total revenue)
+- **Others**: 699 million VND (**28.38%**)
+- **Cash Cows**: 412 million VND (**16.74%**)
+- **Dogs**: 320 million VND (**13.01%**)
+- **Question Marks**: 271 million VND (**11.01%**)
+
+There’s a striking imbalance between customer count and revenue.
+**Stars**, while only **20.6%** of customers, generate nearly **30.87%** of total revenue.
+**Cash Cows** add another **16.74%**, slightly above their **14.4%** share.
+Together, they drive almost **47.61%** of all revenue — a clear signal that they are core value generators.
+
+By contrast, Dogs and Question Marks — together also **35%** of customers — contribute only **24.02%** of revenue. This underperformance highlights a potential inefficiency: many customers, but limited returns.
+
+The Others group contributes **28.38%** of revenue, slightly below its **30%** share of customers. This suggests average performance overall, but also hints at the potential value hidden within the segment.
+<p align="center">
+  <img src="images/total_revenue_chart.png" alt="Total Revenue Chart" width="600"/>
+  <br>
+  <em>Figure: Total Revenue Chart</em>
+</p>
+
+### 3.3. Average Monetary per Segment 
+Analyzing average revenue per customer further reinforces the value gap:
+
+- **Stars** are by far the highest-value individuals, spending **32K** VND on average — more than double the amount of **Dogs** or **Question Marks**.
+
+- **Cash Cows** follow at **25K** VND, confirming their strong historical value, even with less recent activity.
+
+- **Others** average around **20K** VND, signaling room for deeper exploration.
+
+- **Dogs** and **Question** Marks have the lowest average spend (~**15K** VND), revealing limited value per customer.
+
+These insights show that not all customers are equally valuable. Stars and Cash Cows are efficient revenue generators and deserve high-priority investment. Dogs and Question Marks, in contrast, either require cost-efficient engagement or selective reactivation. Others remain a strategic wildcard — stable in average value, but likely hiding meaningful subsegments that could drive future growth.
+<p align="center">
+  <img src="images/avg_monetary_per_seg.png" alt="Average Monetary Per Segment Chart" width="600"/>
+  <br>
+  <em>Figure: Average Monetary Per Segment Chart</em>
+</p>
 
 ## 4. Insight Deep Dive
-**Stars & Cash Cows (High-Value Segments)**: These two groups, though only about 35% of the customers, are responsible for roughly 47% of revenue. Stars are the most valuable customers on a per-customer basis – on average, a single Star generates significantly more revenue than a typical customer (over twice that of a customer in a low-tier segment). This is because Stars exhibit very frequent purchases, high spending, and very recent activity, which translates directly into outstanding revenue contribution. Cash Cows similarly have a high lifetime value (historically frequent, big spenders), but many have slowed down recently (lower recency). Even so, their average revenue per customer is well above the overall mean, reaffirming their importance. The key insight is that both Stars and Cash Cows “punch above their weight” – they deliver far more revenue than their population share would predict – making them critical to the business. 
+**Stars & Cash Cows (High-Value Segments)**: These two groups, though only about **35%** of the customers, are responsible for roughly **47%** of revenue. Stars are the most valuable customers on a per-customer basis – on average, a single Star generates significantly more revenue than a typical customer (over twice that of a customer in a low-tier segment). This is because Stars exhibit very frequent purchases, high spending, and very recent activity, which translates directly into outstanding revenue contribution. Cash Cows similarly have a high lifetime value (historically frequent, big spenders), but many have slowed down recently (lower recency). Even so, their average revenue per customer is well above the overall mean, reaffirming their importance. The key insight is that both Stars and Cash Cows “punch above their weight” – they deliver far more revenue than their population share would predict – making them critical to the business. 
 
 **Question Marks & Dogs (Low-Value Segments)**: In stark contrast, the two lowest-performing segments comprise a similarly large chunk (~**35%**) of the customer base but produce only about **one-quarter** of the revenue. Their revenue per customer is the lowest among all segments. Dogs are largely inactive customers with very infrequent purchases and minimal spend – essentially customers with low engagement and low value. Question Marks have made a purchase recently (showing some interest, hence a high recency score), but their overall purchase frequency and total spend remain very low. In effect, neither group is contributing much value individually or collectively. This represents a significant efficiency gap: a large number of customers are yielding relatively little revenue. Without intervention, these segments offer limited return on marketing investment compared to the others. 
 
-**“Others” Segment (Mid-Tier Customers)**: The remaining 30% of customers fall into the Others category. This group contributes around **28%** of revenue, nearly proportional to its share of customers. These customers have moderate recency, frequency, and monetary values that didn’t place them into one of the four defined BCG quadrants – in other words, they are average performers as a whole (neither extremely high nor extremely low value). However, because this segment is so broad, it likely contains diverse customer profiles. There may be hidden sub-segments within “Others” that have above-average value or distinct behaviors. Identifying those patterns – for example, by further segmenting this group based on product preferences, region, or engagement channel – could uncover new opportunities. The insight here is that “Others” is not a monolith; it warrants further analysis to tease apart any high-potential customers that are currently grouped in this average category.
+**“Others” Segment (Mid-Tier Customers)**: The remaining **30%** of customers fall into the Others category. This group contributes around **28%** of revenue, nearly proportional to its share of customers. These customers have moderate recency, frequency, and monetary values that didn’t place them into one of the four defined BCG quadrants – in other words, they are average performers as a whole (neither extremely high nor extremely low value). However, because this segment is so broad, it likely contains diverse customer profiles. There may be hidden sub-segments within “Others” that have above-average value or distinct behaviors. Identifying those patterns – for example, by further segmenting this group based on product preferences, region, or engagement channel – could uncover new opportunities. The insight here is that “Others” is not a monolith; it warrants further analysis to tease apart any high-potential customers that are currently grouped in this average category.
 
 ## 5. Recommendations
 Based on the above insights, I propose the following targeted strategies for each segment:
