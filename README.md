@@ -1,4 +1,8 @@
-# Customer Segmentation using RFM Analysis & BCG Matrix
+# Customer Segmentation using RFM Analysis & BCG Matrix 
+
+## Project Overview
+
+
 ## 1. Background and Overview
 In today's data-driven business environment, effective customer segmentation is crucial for targeted marketing and retention. In this project, I analyzed a real customer transaction dataset (≈**114,000 customers**) to address the company's lack of strategic segmentation. Previously, marketing efforts were broad and inefficient – high-potential customers weren’t specifically targeted, and medium-value customers at churn risk were not being proactively managed. My goal was to develop an actionable segmentation framework to identify top-tier customers, flag at-risk groups, and optimize marketing spend. 
 
@@ -130,7 +134,8 @@ By implementing these segment-specific strategies, the company can significantly
 ## 6. Files Included  
 | File | Description |
 |------|-------------|
-| `rfm_analysis.ipynb` | Python code for data cleaning & segmentation |
-| `rfm_report.pdf` | Full visual report |
-| `rfm_scoring.sql` | SQL queries for RFM scoring |
+| `rfm_analysis.ipynb` | Python code for data cleaning |
+| `rfm_report.pdf` | SQL queries for data analysis |
+| `rfm_scoring.sql` |  PowerBI report for data visualization |
 | `images/` | Charts & visualizations used in the report |
+| `rfm_report.pdf` | Full RFM analysis report |
