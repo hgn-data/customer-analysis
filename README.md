@@ -146,4 +146,4 @@ By implementing these segment-specific strategies, the company can significantly
 | [`RFM_data_analysis.sql`](./RFM_data_analysis.sql) | SQL queries for data analysis |
 | [`RFM_data_visualization.pbix`](./RFM_data_visualization.pbix) |  PowerBI report for data visualization |
 | [`images/`](./images)| Charts & visualizations used in the report |
-| `rfm_report.pdf` | Full RFM analysis report |
+| [`RFM_data_visualization.pbix`](./RFM_data_report.pdf) | Full RFM analysis report |
