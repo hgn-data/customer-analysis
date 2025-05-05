@@ -1,18 +1,13 @@
 # Customer Segmentation using RFM Analysis & BCG Matrix 
 
 ## Project Overview
+## 📚 Table of Contents
 [1. Background and Overview](#1-background-and-overview)  
 [2. Data Structure Overview](#2-data-structure-overview)  
 [3. Executive Summary](#3-executive-summary)  
-  [3.1. Segment Distribution](#31-segment-distribution)  
-  [3.2. Segment Contribution](#32-segment-contribution)  
-  [3.3. Average Monetary per Segment](#33-average-monetary-per-segment)  
 [4. Insight Deep Dive](#4-insight-deep-dive)  
-  [4.1. High-Value Segments: Stars & Cash Cows](#41-high-value-segments-stars--cash-cows)  
-  [4.2. Low-Value Segments: Question Marks & Dogs](#42-low-value-segments-question-marks--dogs)  
-  [4.3. Mid-Tier Segment: Others](#43-mid-tier-segment-others)  
 [5. Recommendations](#5-recommendations)  
-[6. Files Included](#6-files-included)  
+[6. Files Included](#6-files-included)
 
 ## 1. Background and Overview
 In today's data-driven business environment, effective customer segmentation is crucial for targeted marketing and retention. In this project, I analyzed a real customer transaction dataset (≈**114,000 customers**) to address the company's lack of strategic segmentation. Previously, marketing efforts were broad and inefficient – high-potential customers weren’t specifically targeted, and medium-value customers at churn risk were not being proactively managed. My goal was to develop an actionable segmentation framework to identify top-tier customers, flag at-risk groups, and optimize marketing spend. 
