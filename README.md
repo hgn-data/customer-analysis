@@ -1,7 +1,6 @@
 # Customer Segmentation using RFM Analysis & BCG Matrix 
 
 ## Project Overview
-## 📚 Table of Contents
 [1. Background and Overview](#1-background-and-overview)  
 [2. Data Structure Overview](#2-data-structure-overview)  
 [3. Executive Summary](#3-executive-summary)  
