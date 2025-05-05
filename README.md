@@ -131,7 +131,7 @@ To translate these insights into actionable business strategies, I developed tar
 
 By implementing these segment-specific strategies, the company can significantly optimize its marketing and retention efforts. The plan directs investments (time, budget, promotions) to where they will yield the highest return – delighting and expanding the best customers, reactivating lapsed but valuable ones, cultivating the newly interested, and economizing on the lowest-value groups. This focused approach is expected to improve overall customer lifetime value, reduce inefficient spend, and increase revenue growth. We now have a clear, actionable roadmap: keep our Stars and Cash Cows loyal and spending, grow the Question Marks, carefully revive the Cash Cows, spend wisely on Dogs, and unravel the “Others” to find new opportunities. With this RFM–BCG segmentation framework in place, marketing and sales teams can make more informed, strategic decisions about how to engage each part of the customer base going forward.
 <p align="center">
-  <img src="images/bcg_behavior_strategy.png" alt="BCG Matrix: Customer Behavior & Strategy" width="600"/>
+  <img src="images/bcg_behavior_strategy.jpg" alt="BCG Matrix: Customer Behavior & Strategy" width="600"/>
   <br>
   <em>Figure: BCG Matrix: Customer Behavior & Strategy</em>
 </p>
